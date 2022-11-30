@@ -16,8 +16,8 @@ function App() {
           <script src="https://cdn.tailwindcss.com"></script>
         </head>
         <body>
-          <h1 className="text-3xl font-bold underline cursor-pointer"> hello world 
-          <LiveVideo className="bg-blue-600"></LiveVideo>
+          <h1 className="text-3xl font-bold underline cursor-pointer"> welcome to frontent
+          
           </h1>
           
         </body>
