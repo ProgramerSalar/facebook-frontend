@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+<script src="https://cdn.tailwindcss.com"></script>
 
 function App() {
+  const get = async () => {
+    const res = await fetch("http://localhost:8000");
+    console.log(res);
+  };
+  get();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      <html>
+        <head>
+          <meta charSet="UTF-8"></meta>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+          <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body>
+          <h1 className="text-3xl font-bold underline cursor-pointer"> hello world 
+          <LiveVideo className="bg-blue-600"></LiveVideo>
+          </h1>
+          
+        </body>
+      </html>
+
+
     </div>
-  );
+
+  )
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
